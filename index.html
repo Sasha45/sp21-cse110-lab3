@@ -89,29 +89,49 @@
             <details>
                 <summary>Add another entry</summary>
                 <form>
-                <div>
+                <fieldset>
                     <br>
                     <label>Date:</label>
-                    <input type="text">
+                    <input type="date">
+                    <button>Today</button>
                     <br>
-                </div>
-                <div>
+                </fieldset>
+                <fieldset>
+                    <p>Lectures</p>
+                    <input list="Lectures" />
+                    <datalist id="Lectures">
+                    <option value="Yes">
+                    <option value="No">
+                    </datalist>
+                </fieldset>
+                <fieldset>
+                    <p>Check Gradescope</p>
+                    <select>
+                        <option>Yes</option>
+                        <option>No</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <p>Classes:</p>
+                    <textarea rows="3" cols="15"></textarea>
+                </fieldset>
+                <fieldset>
                     <br>
                     <label>Reading quiz</label><br>
                     <div><input type="radio"> <label>ECE 101</label></div>
                     <div><input type="radio"> <label>ECE 65</label></div>
                     <div><input type="radio" checked> <label>None</label></div>
-                </div>
-                <div>
+                </fieldset>
+                <fieldset>
                     <p>Meals</p>
                     <input type="checkbox"><label><i>Breakfast</i></label><br>
                     <input type="checkbox" checked><label>Lunch</label><br>
                     <input type="checkbox" checked><label>Dinner</label><br>
-                </div>
-                <div>
+                </fieldset>
+                <fieldset>
                     <p>Other</p>
                     <input type="text">
-                </div>
+                </fieldset>
                     <br>
                     <input type="submit">
                 </form>
@@ -144,7 +164,7 @@
             <nav>
                 <a href="https://github.com/Sasha45/Lab2">Link to the source code of this page</a>
                 <br>
-                <a href="example.com">Link to published version</a>
+                <a href="https://sasha45.github.io/Lab2/">Link to published version</a>
             </nav>
             
         </footer>
