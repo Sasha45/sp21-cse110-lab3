@@ -4,4 +4,4 @@ HTML practice
 
 Stuff! Stuff.
 
-Published site: 
+Published site: https://sasha45.github.io/Lab2/
