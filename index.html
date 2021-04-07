@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang=”en”>
-    <head></head>
+    <head>
+        <title>Lab 2</title>
+        <meta name="author" content="Sasha Kubichka">
+        <meta name="description" content="Sasha Kubichka">
+        <link rel="icon" href="favicon.ico">
+    </head>
     <body>
         <header>
             <h1>Three Journal Entries</h1>
             <br>
         </header>
         <main>
+            <section>
             <div>
                 <h2>Monday, April 5</h2>
                 <h3>Classwork</h3>
@@ -21,7 +27,7 @@
                     <li>Eat dinner</li>
                     <li>Exercise</li>
                     <li>Eat vitamins</li>
-                    <li>Apply to internships</li>
+                    <li><i>Apply to internships</i></li>
                 </ul>
                 <h3>Misc</h3>
                 <p>Nothing today... stare at the screen for a while I guess</p>
@@ -55,7 +61,7 @@
                 <h3>Classwork</h3>
                 <ul>
                     <li>ECE 101 Reading Quiz</li>
-                    <li>CSE 110 Lab</li>
+                    <li><strong>CSE 110 Lab</strong></li>
                     <li>Check Gradescope, update calendar</li>
                     <li>Check up on team slack</li>
                 </ul>
@@ -74,12 +80,43 @@
                     <li>Email Phys 4C prof</li>
                 </ul>
              </div>
+            </section>
+            <section>
+                <h2>Add another entry</h2>
+                <form>
+                <div>
+                    <br>
+                    <label>Date:</label>
+                    <input type="text">
+                    <br>
+                </div>
+                <section>
+                    <br>
+                    <label>Reading quiz</label><br>
+                    <div><input type="radio"> <label>ECE 101</label></div>
+                    <div><input type="radio"> <label>ECE 65</label></div>
+                    <div><input type="radio" checked> <label>None</label></div>
+                </section>
+                <section>
+                    <p>Meals</p>
+                    <input type="checkbox"><label><i>Breakfast</i></label><br>
+                    <input type="checkbox" checked><label>Lunch</label><br>
+                    <input type="checkbox" checked><label>Dinner</label><br>
+                </section>
+                <section>
+                    <p>Other</p>
+                    <input type="text">
+                </section>
+                    <br>
+                    <input type="submit">
+                </form>
+            <section>
+                <h2>Memes</h2>
+            </section>
         </main>
-        <div>
-            <h2>Add another entry</h2>
-        </div>
         <footer>
             <h2>That's all folks</h2>
+            <a href="https://github.com/Sasha45/Lab2">Link to the source code of this page</a>
         </footer>
     </body>
 </html>
