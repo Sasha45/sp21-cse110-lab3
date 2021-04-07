@@ -4,13 +4,16 @@
         <title>Lab 2</title>
         <meta name="author" content="Sasha Kubichka">
         <meta name="description" content="Sasha Kubichka">
-        <link rel="icon" href="favicon.ico">
+        <link rel="icon" href="media/favicon.ico">
     </head>
     <body>
         <header>
-            <h1>Three Journal Entries</h1>
-            <br>
+            <p>
+            
+            <h1>Journal and ToDo List</h1>
+            </p>
         </header>
+        <hr>
         <main>
             <section>
             <div>
@@ -27,7 +30,7 @@
                     <li>Eat dinner</li>
                     <li>Exercise</li>
                     <li>Eat vitamins</li>
-                    <li><i>Apply to internships</i></li>
+                    <li><em>Apply to internships</em></li>
                 </ul>
                 <h3>Misc</h3>
                 <p>Nothing today... stare at the screen for a while I guess</p>
@@ -38,7 +41,7 @@
                 <h3>Classwork</h3>
                 <ul>
                     <li>CSE 101 Lecture</li>
-                    <li>CSE 110 Lecture</li>
+                    <li><b>CSE 110</b> Lecture</li>
                     <li>ECE 65 Reading Quiz</li>
                 </ul>
                 <h3>Life</h3>
@@ -52,19 +55,19 @@
                 <h3>Misc</h3>
                 <ul>
                     <li>Take a covid test</li>
-                    <li>take out the trash</li>
+                    <li>Take out the trash</li>
                 </ul>
             </div>
             <br>
             <div>
                 <h2>Wednesday, April 7</h2>
                 <h3>Classwork</h3>
-                <ul>
+                <ol>
                     <li>ECE 101 Reading Quiz</li>
                     <li><strong>CSE 110 Lab</strong></li>
                     <li>Check Gradescope, update calendar</li>
                     <li>Check up on team slack</li>
-                </ul>
+                </ol>
                 <h3>Life</h3>
                 <ul>
                     <li>Eat breakfast</li>
@@ -81,8 +84,10 @@
                 </ul>
              </div>
             </section>
-            <section>
-                <h2>Add another entry</h2>
+            <br>
+            <hr>
+            <details>
+                <summary>Add another entry</summary>
                 <form>
                 <div>
                     <br>
@@ -90,33 +95,58 @@
                     <input type="text">
                     <br>
                 </div>
-                <section>
+                <div>
                     <br>
                     <label>Reading quiz</label><br>
                     <div><input type="radio"> <label>ECE 101</label></div>
                     <div><input type="radio"> <label>ECE 65</label></div>
                     <div><input type="radio" checked> <label>None</label></div>
-                </section>
-                <section>
+                </div>
+                <div>
                     <p>Meals</p>
                     <input type="checkbox"><label><i>Breakfast</i></label><br>
                     <input type="checkbox" checked><label>Lunch</label><br>
                     <input type="checkbox" checked><label>Dinner</label><br>
-                </section>
-                <section>
+                </div>
+                <div>
                     <p>Other</p>
                     <input type="text">
-                </section>
+                </div>
                     <br>
                     <input type="submit">
                 </form>
+            </details>
+            <hr>
             <section>
-                <h2>Memes</h2>
+                <h2>Media</h2>
+                <p>I went into my Google Photos and found a few videos</p>
+                <video width="320" height="240" controls>
+                    <source src="media/1OuMCGN.mp4">
+                </video>
+                <video width="320" height="240" controls>
+                    <source src="media/e261lgoa0jl51.mp4">
+                </video>
+                <video width="320" height="240" controls>
+                    <source src="media/z5q2hbywzr961.mp4">
+                </video>
+                <p>Here is a song I found on my computer: Souless Demo by Bridget Egan</p>
+                <audio controls>
+                    <source src="media/Souless Demo.wav">
+                </audio>
+        
             </section>
+
         </main>
+        <hr>
         <footer>
-            <h2>That's all folks</h2>
-            <a href="https://github.com/Sasha45/Lab2">Link to the source code of this page</a>
+            <h2><span>That's all folks</span></h2>
+            <img src="media/image.png" alt="Icon" width="192" height="144">
+            <nav>
+                <a href="https://github.com/Sasha45/Lab2">Link to the source code of this page</a>
+                <br>
+                <a href="example.com">Link to published version</a>
+            </nav>
+            
         </footer>
     </body>
 </html>
