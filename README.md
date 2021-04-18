@@ -1,7 +1,5 @@
-Lab 2 
+Lab 3 
 
-HTML practice
+HTML+CSS practice
 
-Stuff! Stuff.
-
-Published site: https://sasha45.github.io/Lab2/
+Published site: https://sasha45.github.io/sp21-cse110-lab3/
