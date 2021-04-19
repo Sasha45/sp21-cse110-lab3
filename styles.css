@@ -19,17 +19,15 @@ fieldset.textbox{
     size:auto;
 }
 
-.title{
-    font-size: 1.5em;
+.sticky{
     position: -webkit-sticky;
     position: sticky;
-    top: 10px;
 }
 
 /* Element type styles*/
 h1{
-    color: red;
-    font-size: 1.5em;
+    color: darkred;
+    font-size: 1.45em;
 }
 h2{
     color: #000099;
@@ -39,8 +37,12 @@ h3{
     color: rgb(0, 96, 32);
     font-size: 1.1em;
 }
+h1,h2,h3{
+    padding: 5px 5px 0px 10px;
+}
 section ul{
     color: darkgray;
+    margin:auto;
 }
 
 body > hr{
@@ -65,5 +67,20 @@ body > hr{
     justify-content: center;
     align-items: stretch;
     flex-wrap: wrap;
+}
+
+#title{
+    font-size: 1.5em;
+    top: 0px;
+    padding-top: 5px;
+    border-style: double;
+    border-color: darkred;
+    border-width: 2mm;
+    border-radius: 10Q;
+    margin: 0px 0px 5px 0px
+}
+
+#footer{
+    margin-top: 5px;
 }
 
