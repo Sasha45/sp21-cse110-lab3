@@ -1,0 +1,26 @@
+/* Global styles */
+*{
+    background-color: hsl(41, 100%, 96%);
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+
+/* Class styles */
+
+
+/* Element type styles*/
+h1{
+    color: red;
+    font-size: 1.5em;
+}
+h2{
+    color: #000099;
+    font-size: 1.3em;
+}
+h3{
+    color: rgb(0, 96, 32);
+    font-size: 1.1em;
+}
+
+/* Individual ID styles */
+
