@@ -10,6 +10,11 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
     </head>
+    <style>
+        a:active{
+            color:purple;
+        }
+    </style>
     <body>
         <header id="title" class="sticky">         
             <h1> Sample Journal and ToDo List</h1>
@@ -75,15 +80,16 @@
                 </ul>
              </div>
             </section>
+            <section style="display: none;"> 
+                <p>This text should not show up!</p>
+            </section>
             <hr>
             <h2>Add another entry</h2>
             <form id="grid">
                 <fieldset>
-                    <br>
                     <label>Date:</label>
                     <input type="date">
                     <button>Today</button>
-                    <br>
                 </fieldset>
                 <fieldset>
                     <p>Lectures</p>
@@ -105,7 +111,6 @@
                     <textarea rows="3" cols="15"></textarea>
                 </fieldset>
                 <fieldset>
-                    <br>
                     <label>Reading quiz</label><br>
                     <div><input type="radio"> <label>ECE 101</label></div>
                     <div><input type="radio"> <label>ECE 65</label></div>
@@ -145,9 +150,9 @@
         <hr>
         <footer id="footer" class="sticky">
             <nav>
-                <a href="https://github.com/Sasha45/Lab2">Link to the source code of this page</a>
+                <a href="https://github.com/Sasha45/sp21-cse110-lab3">Link to the source code of this page</a>
                 <br>
-                <a href="https://sasha45.github.io/Lab2/">Link to published version</a>
+                <a href="https://sasha45.github.io/sp21-cse110-lab3/">Link to published version</a>
             </nav>   
         </footer>
     </body>
