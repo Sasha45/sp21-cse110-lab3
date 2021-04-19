@@ -8,21 +8,26 @@
 /* Class styles */
 
 .button{
-    background-color: beige;
+    background-color: green;
 }
 
 .button:hover{
-    background-color: blueviolet;
+    background-color: lightgreen;
 }
 
 fieldset.textbox{
     size:auto;
 }
 
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+}
+
 /* Element type styles*/
 h1{
-    color: red;
-    font-size: 1.5em;
+    color: darkred;
+    font-size: 1.45em;
 }
 h2{
     color: #000099;
@@ -32,8 +37,12 @@ h3{
     color: rgb(0, 96, 32);
     font-size: 1.1em;
 }
+h1,h2,h3{
+    padding: 5px 5px 0px 10px;
+}
 section ul{
     color: darkgray;
+    margin:auto;
 }
 
 body > hr{
@@ -44,5 +53,34 @@ body > hr{
 /* Individual ID styles */
 #soulessdemo{
     color: tan;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 30vw 30vw;
+    grid-template-rows: 20vh 20vh 20vh 20vh;
+    row-gap: 2px;
+}
+
+#videosection{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+#title{
+    font-size: 1.5em;
+    top: 0px;
+    padding-top: 5px;
+    border-style: double;
+    border-color: darkred;
+    border-width: 2mm;
+    border-radius: 10Q;
+    margin: 0px 0px 5px 0px
+}
+
+#footer{
+    margin-top: 5px;
 }
 
