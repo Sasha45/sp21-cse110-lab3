@@ -8,15 +8,22 @@
 /* Class styles */
 
 .button{
-    background-color: beige;
+    background-color: green;
 }
 
 .button:hover{
-    background-color: blueviolet;
+    background-color: lightgreen;
 }
 
 fieldset.textbox{
     size:auto;
+}
+
+.title{
+    font-size: 1.5em;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
 }
 
 /* Element type styles*/
@@ -44,5 +51,19 @@ body > hr{
 /* Individual ID styles */
 #soulessdemo{
     color: tan;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 30vw 30vw;
+    grid-template-rows: 20vh 20vh 20vh 20vh;
+    row-gap: 2px;
+}
+
+#videosection{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
 }
 
