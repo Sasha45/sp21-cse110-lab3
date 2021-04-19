@@ -5,6 +5,12 @@
     color: black;
 }
 
+@media (min-width: 750px) {
+    #narrow {
+      display: none;
+    }
+  }
+
 /* Class styles */
 
 .button{
