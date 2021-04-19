@@ -52,6 +52,11 @@ section ul{
     margin:auto;
 }
 
+h2 + p {
+    font-style: italic;
+}
+
+
 body > hr{
     width: auto;
     color: navy;
@@ -97,4 +102,10 @@ fieldset label,fieldset~p{
 #footer{
     margin-top: 5px;
 }
+
+/* Misc */
+a[href="https://sasha45.github.io/sp21-cse110-lab3/"]{
+    color: green;
+}
+
 
