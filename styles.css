@@ -7,6 +7,17 @@
 
 /* Class styles */
 
+.button{
+    background-color: beige;
+}
+
+.button:hover{
+    background-color: blueviolet;
+}
+
+fieldset.textbox{
+    size:auto;
+}
 
 /* Element type styles*/
 h1{
@@ -21,6 +32,17 @@ h3{
     color: rgb(0, 96, 32);
     font-size: 1.1em;
 }
+section ul{
+    color: darkgray;
+}
+
+body > hr{
+    width: auto;
+    color: navy;
+}
 
 /* Individual ID styles */
+#soulessdemo{
+    color: tan;
+}
 
